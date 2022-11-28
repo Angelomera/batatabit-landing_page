@@ -126,7 +126,7 @@ header {
     margin: 0 auto;
 }
 
-.main__subtitle {
+.main__exchangesubtitle {
     margin-bottom: 30px;
     font-size: 2.4rem;
     font-weight: bold;
@@ -134,7 +134,7 @@ header {
     color: var(--black);
 }
 
-.main__text1 {
+.main__exchangetext {
     margin-bottom: 30px;
     font-size: 1.4rem;
     font-weight: 500px;
@@ -237,3 +237,103 @@ header {
     font-weight: 300;
     font-family: "Inter", sans-serif;
 }
+
+.main__benefits {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--black);
+}
+
+.main__potatoicon {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    top: -10px;
+    left: calc(50% - 20px);
+    background-image: url(../assets/icons/batata.svg);
+}
+
+.main__titlesbenefits {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 50px auto 0;
+    text-align: center;
+}
+
+.main__subtitlebenefits {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.main__textbenefits {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.main__productcard {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: auto;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.main__cardsicon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main__cardsicon--clock {
+    background-image: url(../assets/icons/clock.svg);
+}
+
+.main__cardsicon--eye {
+    background-image: url(../assets/icons/eye.svg);
+}
+
+.main__cardsicon--dollar {
+    background-image: url(../assets/icons/dollar-sign.svg);
+}
+
+.main__cardsicon--check {
+    background-image: url(../assets/icons/check-circle.svg);
+}
+
+.main__titlecard {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.main__textcard {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+
+
+
+
